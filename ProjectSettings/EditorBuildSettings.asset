@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MegoPlayset.unity
     guid: a2e518200ca1c9e4291872bf03c1081a
+  - enabled: 1
+    path: Assets/Scenes/DancingOnTheCeiling2.unity
+    guid: f2aa71d4c94bc144aa44175cd1e06d05
   m_configObjects: {}
