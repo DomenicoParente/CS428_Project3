@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.38073987, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -10705,7 +10705,7 @@ PrefabInstance:
     - target: {fileID: 2764921037832162238, guid: 0b5f198c853b9794680bf089e64daf28,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764921037832162239, guid: 0b5f198c853b9794680bf089e64daf28,
         type: 3}
@@ -17968,10 +17968,10 @@ Transform:
   m_LocalPosition: {x: -4.989875, y: 5.470394, z: 1.2392862}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 118781345}
+  - {fileID: 165329142}
   - {fileID: 1681959115}
   - {fileID: 68677382}
-  - {fileID: 165329142}
-  - {fileID: 118781345}
   m_Father: {fileID: 1845940825}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45440,10 +45440,10 @@ Transform:
   m_Children:
   - {fileID: 1716490128}
   - {fileID: 1795401962}
-  - {fileID: 2080740455}
-  - {fileID: 1403828661}
   - {fileID: 449593264}
+  - {fileID: 2080740455}
   - {fileID: 2103374356}
+  - {fileID: 1403828661}
   m_Father: {fileID: 1845940825}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -74387,12 +74387,12 @@ Transform:
   - {fileID: 79763988}
   - {fileID: 390628400}
   - {fileID: 440123894}
-  - {fileID: 623783781}
-  - {fileID: 1464494804}
   - {fileID: 85331459}
+  - {fileID: 1464494804}
   - {fileID: 1172039293}
-  - {fileID: 876771805}
   - {fileID: 1843535876}
+  - {fileID: 876771805}
+  - {fileID: 623783781}
   m_Father: {fileID: 1599739122}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -102616,7 +102616,7 @@ PrefabInstance:
     - target: {fileID: 6707005887722074733, guid: 319c9c4cb939912429c7786a67e40f0d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 319c9c4cb939912429c7786a67e40f0d, type: 3}
